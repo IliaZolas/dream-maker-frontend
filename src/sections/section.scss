@@ -1,0 +1,31 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    height: 1000px;
+    padding: 100px;
+}
+
+.section-image {
+    mix-blend-mode: lighten;
+}
+
+.section-blurbs {
+    padding-top: 20px;
+    width: 100%;
+}
+
+.section-blurb {
+    width: 300px;
+}
+
+.tech-container {
+    width: 800px;
+}
+
+.tech-list-container {
+    width: 750px;
+    margin: auto;
+    justify-content: center;
+}

@@ -1,0 +1,59 @@
+.hero-container {
+    position: relative;
+    height: 1125px;
+    background: rgb(240,88,127);
+    background: linear-gradient(29deg, rgba(240,88,127,1) 0%, rgba(16,25,36,1) 53%);
+}
+
+.hero-blurb {
+    position: absolute;
+    top: 500px;
+    left: 1800px;
+}
+
+.hero-description {
+    position: absolute;
+    color: white;
+    width: 340px;
+    text-align: right;
+    right:0;
+}
+
+.sub-hero-container {
+    display: flex;
+    height: 250px;
+    width: 2200px;
+    color: white;
+    margin: auto;
+    padding-top: 20px;
+    justify-content: space-around;
+}
+
+.sub-hero-blurb {
+    display: flex;
+}
+
+.sub-hero-blurb-text {
+    padding-left: 20px;
+    width: 400px;
+}
+
+.sub-hero-image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 85px;
+}
+
+.sub-hero-blurb-image {
+    mix-blend-mode: lighten;
+}
+
+.sub-hero-blurb-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+}
+

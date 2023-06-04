@@ -1,0 +1,49 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0);
+    backdrop-filter: blur(5px);
+    z-index: 10;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1500px;
+    height: 98px;
+    margin: auto;
+}
+
+.nav-logo {
+    padding: 20px;
+}
+
+.navitems {
+    display: flex
+}
+
+.nav-item {
+    padding: 20px;
+
+}
+
+.nav-item a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+
+}
+
+.nav-cta {
+    
+}
+
+.item-cta {
+    background-color: #2FF5F6;
+    color: #101924 !important;
+    font-weight: bolder;
+    padding: 10px 15px;
+    border-radius: 5px;
+}

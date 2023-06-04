@@ -1,0 +1,28 @@
+.red-lady-container {
+    position: relative;
+    width: 100%;  
+    z-index: 0;
+    border: 1px solid #F0587F;
+}
+
+.ending-container {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+    top: 500px;
+    left: 500px;
+    z-index: 1;
+}
+
+.button-cta {
+    position: absolute;
+    bottom: 40px;
+    left: 580px;
+    text-decoration: none;
+    background-color: #2FF5F6;
+    color: #101924 !important;
+    font-weight: bolder;
+    padding: 10px 15px;
+    border-radius: 5px;
+}

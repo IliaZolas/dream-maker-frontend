@@ -1,0 +1,34 @@
+.gundam-fade {
+    border-right: 4px double #F0587F;
+    border-left: 4px double #F0587F;
+}
+
+.dream-exe-left, .dream-exe-right {
+    color: #F0587F;
+}
+
+.dream-container {
+    
+}
+
+.gundam-container {
+    position: relative;
+    width: 100%;  
+    z-index: 0;
+}
+
+.creative-container {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    z-index: 1;
+}
+
+.gundam-container h2 {
+    color: white;
+}
+
+.long-divider-down-container {
+    display: flex;
+    justify-content: center;
+}
